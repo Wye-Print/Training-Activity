@@ -1,0 +1,29 @@
+{
+  "id": "9d664676-6508-4049-b201-50f44c417838",
+  "name": "Training Activity",
+  "publisher": "Public Domain",
+  "version": "1.0.0.0",
+  "brief": "Per-employee PrintVis onboarding activity snapshot",
+  "description": "Read-only, per-employee snapshot of training milestones for PrintVis. Each milestone is proven by rows Business Central already stamps (SystemCreatedBy / SystemCreatedAt plus PVS Case datetime fields). Nothing is written.",
+  "dependencies": [
+    {
+      "id": "5452f323-059e-499a-9753-5d2c07eef904",
+      "name": "PrintVis",
+      "version": "26.0.0.0",
+      "publisher": "PrintVis A/S"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    { "from": 50000, "to": 50049 }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": ["TranslationFile", "NoImplicitWith"]
+}

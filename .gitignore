@@ -1,0 +1,7 @@
+.vscode/*
+!.vscode/launch.json
+.alpackages
+.snapshots
+*.app
+Translations/*.xlf
+.DS_Store

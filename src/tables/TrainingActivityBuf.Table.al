@@ -2,6 +2,7 @@ table 50000 "Training Activity Buf"
 {
     Caption = 'Training Activity Buffer';
     DataClassification = SystemMetadata;
+    TableType = Temporary;
 
     fields
     {

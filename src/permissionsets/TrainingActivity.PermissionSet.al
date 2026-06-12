@@ -4,8 +4,6 @@ permissionset 50003 "Training Activity"
     Assignable = true;
 
     Permissions =
-        tabledata "Training Activity Buf" = RIMD,
-        tabledata "Training Activity Detail" = RIMD,
         tabledata "User" = R,
         tabledata Customer = R,
         tabledata Vendor = R,

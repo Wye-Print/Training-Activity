@@ -3,6 +3,8 @@
 A small, read-only Business Central extension for **PrintVis** that shows a
 per-employee snapshot of onboarding/training milestones.
 
+![Training Activity page](docs/training-activity.png)
+
 For each Business Central user it counts (and dates) the first and latest time
 they performed a set of monitored activities: creating customers, vendors,
 items, completing a case estimate, moving a quote to order, creating sales

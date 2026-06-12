@@ -15,6 +15,14 @@ Open the **Training Activity** page (search for it in Tell Me) and use
 **Refresh** to rebuild the snapshot. Drill into any cell for the underlying
 records.
 
+## Notes
+
+- **Attribution** is based on `SystemCreatedBy`. Records created by an
+  integration, a data migration, or a job-queue account are credited to that
+  account, not to a trainee. Expect those to show up as their own rows.
+- **"Released"** counts positive `Item Ledger Entry` rows (output or other
+  receipts into inventory), dated by when the entry was created.
+
 ## Requirements
 
 - Business Central 26.x
